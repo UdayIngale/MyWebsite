@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_img {
+    background-image: url(bg.png);
+    height: 570px;
+    width: 100%;
+    background-size: 100%;
+}
+.top {
+    background-image: url(bg.png);
+    width: 100%;
+    height: 570px;
+}
+#header-nav {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.head {
+    margin-left: 10px;
+    font-size: 40px;
+    color: lightgray;
+    font-weight: 650;  
+}
+
+.tabs {
+    float: right;
+    list-style: none;
+    margin-right: 10px
+}
+.dropbox  {
+    text-align: right;
+    color: white;
+    
+}
+label {
+    margin-right: 0px;
+    font-size: 25px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+.navbar-header {
+    margin-right: 150px;
+}
+.navbar-header ul li {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    color: lightgrey;
+    text-decoration: none;
+    
+}
+.navbar-header ul li:hover {
+    color: orange;
+    cursor: pointer;
+}
+.text {
+    text-align: center;
+    
+}
+.container {
+    margin-top: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container input[type = "text"], .box input[type = "password"] {
+    margin-top: 10px;
+    text-align: center;
+    border: 0;
+    background: none;
+    border: 3px solid #3734db;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+}
+
+    
+
+#bt1 {
+    text-align: center;
+    cursor: pointer;
+    background-color: royalblue;
+    font-size: 15px;
+    font-weight: 750;
+    text-transform: uppercase;
+    width: 120px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+    label{
+        display: block;
+        cursor: pointer;
+        line-height: 0.5em;
+    }
+    .navbar-header ul li {
+        display: block;
+        margin-left: 50px;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 5px;
+        display: none;
+    }
+    .navbar-header ul li:hover {
+        color: orange;
+        cursor: pointer;
+        
+    }
+    #header-nav {
+        height: 180px;
+    }
+    #toggle:checked + .navbar-header ul li {
+        display: block;
+
+    }
+    .top_img {
+        width: 100%;
+
+    }
+    .navbar-header {
+        margin-right: 75px;
+    }
+}
+.column-title {
+    text-align: center;
+    margin-top: 80px;
+    line-height: 20px;
+}
+.col1 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    height: 250px;
+    border: 2px solid gray;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background-color: cyan;
+}
+.col2 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    height: 250px;
+    border: 2px solid gray;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background-color: cyan;
+}
+.col3 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    height: 250px;
+    border: 2px solid gray;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background-color: cyan;
+}
+.para {
+    margin-top: 15px;
+    font-size: large;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 150px;
+     
+}
+  .container-fluid {
+      text-align: center;
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-top: 20px;
+  
+      
+  }
+  @media screen and (max-width: 991px) {
+    .col1 {
+        width: 45%;
+        overflow: scroll;
+    }
+    .col2 {
+        width: 45%;
+        overflow: scroll;
+    }
+    .col3 {
+        width: 93%;
+        overflow: scroll;
+    }
+  
+   
+  }
+  @media screen and (max-width: 764px) {
+    .col1 {
+        width: 100%;
+        overflow: scroll;
+        
+    }
+    .col2 {
+        width: 100%;
+        overflow: scroll;
+       
+    }
+    .col3 {
+        width: 100%;
+        overflow: scroll;
+       
+}
+
+}
+
+
+
+.footer {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 50px;
+      line-height: 50px;
+  }
+
+
